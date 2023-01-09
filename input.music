@@ -1,0 +1,29 @@
+tempo: 120
+
+repeat 2 rename iteration to num
+repeat 2
+play e_4 1/2
+then after 1/2 play d_4 1/2
+then after 1/2 play c_4 1/2
+wait 2
+end repeat
+chord c4 = c_4
+
+repeat 2
+repeat 4
+play chord c4 1/2
+wait 1/2
+end repeat
+shift chord c4 up 2
+end repeat
+
+play e_4 1/2
+then after 1/2 play d_4 1/2
+wait 1
+if num == 1
+play c_4 2
+else
+play c_4 & e_4 & g_4 & c_5 2
+end if
+wait 2
+end repeat

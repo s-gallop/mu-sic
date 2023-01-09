@@ -1,0 +1,53 @@
+tempo: 120
+
+function star
+
+repeat 2 rename iteration to i
+play c_4  1
+play c_2  1
+then after 0 play c_4  1
+play c_3 1
+then after 0 play g_4  1
+play e_3 1
+then after 0 play g_4  1
+play c_3 1
+wait 1
+play a_4  1
+play f_3 1
+then after 0 play a_4  1
+play c_3 1
+wait 1
+play g_4  1
+play e_3 1
+then after 0 play g_4 1
+play c_3 1
+then after 0 play f_4  1
+play d_3 1
+then after 0 play f_4  1
+play b_2 1
+then after 0 play e_4  1
+play c_3 1
+then after 0 play e_4  1
+play a_2 1
+then after 0 play d_4  1
+play f_2 1
+wait 1
+if i == 1
+play d_4  1
+play g_2 1
+wait 1
+else if i == 2
+play g_2 1
+play d_4 3/4
+then after 0
+play e_4 1/4
+wait 1/4
+end if
+play c_4  2
+play c_2 2
+wait 2
+end repeat
+
+end function
+
+call star

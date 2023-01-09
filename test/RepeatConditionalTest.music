@@ -1,0 +1,17 @@
+tempo: 120
+
+play c_2 1
+wait 1
+
+repeat 4 rename iteration to var
+if var == 1
+play c_3 1
+else if var == 2
+play c_4 1
+else if var == 3
+play c_5 1
+else
+play c_6 1
+end if
+wait 1
+end repeat

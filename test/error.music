@@ -1,0 +1,5 @@
+tempo: 120
+
+shift chord myChord up 3/2
+play chord myChord 1
+call myFunction

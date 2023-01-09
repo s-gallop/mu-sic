@@ -1,0 +1,13 @@
+tempo: 120
+
+chord myChord = c_4 & e_4 & g_4
+repeat 2
+chord newChord = g_4 & b_5 & d_4
+play chord myChord 1
+then after 0 play chord newChord 1
+wait 1
+chord newChord = f_4 & a_5 & d_4
+play chord newChord 1
+wait 1
+end repeat
+play chord newChord 1
